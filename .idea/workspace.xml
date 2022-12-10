@@ -4,7 +4,49 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="96da695f-543f-4f12-a5dd-553caea7bd22" name="Changes" comment="" />
+    <list default="true" id="96da695f-543f-4f12-a5dd-553caea7bd22" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_simple_spring_memcached_simple_spring_memcached_4_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_simple_spring_memcached_spring_cache_4_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_simple_spring_memcached_xmemcached_provider_4_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_googlecode_xmemcached_xmemcached_2_4_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_micrometer_micrometer_core_1_9_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_aspectj_aspectjweaver_1_9_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hdrhistogram_HdrHistogram_2_1_12.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_latencyutils_LatencyUtils_2_0_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_actuator_2_7_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_actuator_autoconfigure_2_7_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_actuator_2_7_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/dcagon/decapay/config/MemcachedConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/dcagon/decapay/controllers/WalletController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/dcagon/decapay/entities/Wallet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/dcagon/decapay/entities/WalletLog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/dcagon/decapay/enums/TransactionType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/dcagon/decapay/pojos/user/ActivationRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/dcagon/decapay/pojos/wallet/WalletCreditRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/dcagon/decapay/pojos/wallet/WalletTransferRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/dcagon/decapay/respositories/WalletLogRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/dcagon/decapay/respositories/WalletRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/dcagon/decapay/services/SchedulerService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/dcagon/decapay/services/WalletService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/dcagon/decapay/utils/AuthDetails.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/dcagon/decapay/utils/LocalStorage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/decapay.iml" beforeDir="false" afterPath="$PROJECT_DIR$/decapay.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/dcagon/decapay/DecapayApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dcagon/decapay/DecapayApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/dcagon/decapay/controllers/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dcagon/decapay/controllers/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/dcagon/decapay/entities/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dcagon/decapay/entities/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/dcagon/decapay/respositories/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dcagon/decapay/respositories/UserRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/dcagon/decapay/security/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dcagon/decapay/security/SecurityConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/dcagon/decapay/services/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dcagon/decapay/services/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/dcagon/decapay/DecapayApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/dcagon/decapay/DecapayApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/dcagon/decapay/controllers/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/dcagon/decapay/controllers/UserController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/dcagon/decapay/security/SecurityConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/dcagon/decapay/security/SecurityConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/dcagon/decapay/services/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/dcagon/decapay/services/UserService.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,10 +56,13 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Enum" />
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="JpbToolWindowState">
     <option name="myId2FirstActivated">
@@ -54,7 +99,8 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "/home/aliyura/Projects/Training/Springboot/decapay/src/main/java/com/dcagon/decapay/security",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "/home/aliyura/Projects/Spring/Recruitment Portal",
     "project.structure.last.edited": "SDKs",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.16390425",
@@ -68,11 +114,11 @@
       <recent name="$PROJECT_DIR$/src/main/java/com/dcagon/decapay/utils" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.dcagon.decapay.exception" />
+      <recent name="com.dcagon.decapay.utils" />
+      <recent name="com.dcagon.decapay.pojos.wallet" />
+      <recent name="com.dcagon.decapay.controllers" />
       <recent name="com.dcagon.decapay.services" />
       <recent name="com.dcagon.decapay.respositories" />
-      <recent name="com.dcagon.decapay.pojos.user" />
-      <recent name="com.dcagon.decapay.entities" />
     </key>
   </component>
   <component name="RunManager">

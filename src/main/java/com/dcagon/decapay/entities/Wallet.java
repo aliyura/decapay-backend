@@ -1,4 +1,5 @@
 package com.dcagon.decapay.entities;
+
 import com.dcagon.decapay.enums.Status;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
@@ -6,16 +7,18 @@ import lombok.Getter;
 import lombok.Setter;
 import org.springframework.data.mongodb.core.index.Indexed;
 import org.springframework.data.mongodb.core.mapping.Document;
+
 import javax.persistence.*;
 import java.io.Serializable;
+import java.math.BigDecimal;
 import java.util.Date;
 
-@Document("users")
+@Document("wallets")
 @Getter
 @Setter
 @Builder
 @AllArgsConstructor
-public class User implements Serializable {
+public class Wallet implements Serializable {
 
     private static final long serialVersionUID = 2L;
     @Id
@@ -23,28 +26,18 @@ public class User implements Serializable {
     @Indexed(unique = true)
     private String uuid;
 
+    @Indexed(unique = true)
+    private String walletId;
     @Column(nullable = false, length = 50)
-    private String name;
-    @Column(nullable = false, length = 50)
-    private String emailAddress;
-
+    private BigDecimal balance;
     @Column(nullable = false, length = 10)
     private Status status;
-
-    @Column(nullable = false, length = 50)
-    private String password;
-
-    @Column(nullable = false, length = 20)
-    private String walletId;
-
-    @Temporal(TemporalType.TIMESTAMP)
-    private Date lastLoginDate;
     @Temporal(TemporalType.TIMESTAMP)
     private Date createdDate;
     @Temporal(TemporalType.TIMESTAMP)
     private Date updatedDate;
 
-    User(){
+    public Wallet(){
         this.createdDate= new Date();
         this.updatedDate = new Date();
     }

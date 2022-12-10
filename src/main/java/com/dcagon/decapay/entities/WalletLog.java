@@ -1,50 +1,45 @@
 package com.dcagon.decapay.entities;
-import com.dcagon.decapay.enums.Status;
+import com.dcagon.decapay.enums.TransactionType;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Getter;
 import lombok.Setter;
 import org.springframework.data.mongodb.core.index.Indexed;
 import org.springframework.data.mongodb.core.mapping.Document;
+
 import javax.persistence.*;
 import java.io.Serializable;
+import java.math.BigDecimal;
 import java.util.Date;
 
-@Document("users")
+@Document("wallet_logs")
 @Getter
 @Setter
 @Builder
 @AllArgsConstructor
-public class User implements Serializable {
+public class WalletLog implements Serializable {
 
     private static final long serialVersionUID = 2L;
     @Id
     private String id;
     @Indexed(unique = true)
     private String uuid;
-
-    @Column(nullable = false, length = 50)
-    private String name;
-    @Column(nullable = false, length = 50)
-    private String emailAddress;
-
-    @Column(nullable = false, length = 10)
-    private Status status;
-
-    @Column(nullable = false, length = 50)
-    private String password;
-
-    @Column(nullable = false, length = 20)
+    @Indexed(unique = true)
     private String walletId;
+    @Indexed(unique = true)
+    private String sourceWalletId;
 
-    @Temporal(TemporalType.TIMESTAMP)
-    private Date lastLoginDate;
+    private String narration;
+    @Column(nullable = false, length = 50)
+    private BigDecimal amount;
+    @Column(nullable = false, length = 10)
+    private TransactionType transactionType;
     @Temporal(TemporalType.TIMESTAMP)
     private Date createdDate;
     @Temporal(TemporalType.TIMESTAMP)
     private Date updatedDate;
 
-    User(){
+    public WalletLog(){
         this.createdDate= new Date();
         this.updatedDate = new Date();
     }
